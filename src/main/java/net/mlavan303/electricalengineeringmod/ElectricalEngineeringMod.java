@@ -71,6 +71,7 @@ public class ElectricalEngineeringMod {
         public static void onBlocksRegistry(final RegistryEvent.Register<Block> blockRegistryEvent) {
             // register a new block here
             LOGGER.info("HELLO from Register Block");
+            Blocks yeet = new Blocks();
         }
     }
 }
